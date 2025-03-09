@@ -21,6 +21,8 @@ const rtmpConfig = {
 };
 
 const transformationConfig = {
+  //for linux
+  //ffmpeg:"/usr/bin/ffmpeg",
   ffmpeg: "./ffmpeg/bin/ffmpeg.exe", // Pastikan path ini benar
   tasks: [
     {
